@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>practice</title>
+  </head>
+
+  <body>
+   
+      <form class="form-inline search-form js-search-form">
+        <div class="form-group mx-sm-3 mb-2">
+          <label for="searchQuery" class="sr-only"></label>
+          <input type="text" class="form-control" name="input" id="searchQuery" placeholder="Что ищем?" autocomplete="off" />
+        </div>
+        <button type="submit" class="btn btn-primary mb-2">Искать</button>
+      </form>
+      
+      <ul class="articles js-articles-container"></ul>
+      
+      <button type="button" class="btn btn-primary button" data-action="load-more">
+        <span class="spinner-border spinner-border-sm spinner is-hidden" role="status" aria-hidden="true"></span>
+      
+        <span class="label">Показать ещё</span>
+      </button>
+
+  </body>
+</html>
